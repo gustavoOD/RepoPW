@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-   
-    <title>Mi primera página</title>
+    <title>Mi pagina</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1>Mi primera página</h1>
-    <p>Esta es mi primera pagina web en html</p>
+    <h1>Mi primera pàgina</h1>
 </body>
+    <form action="dos.html" method="get">
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+        </p>
+        <p>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+        </p>
+        <p>
+            <label for="direccion">Direccion:</label>
+            <input type="text" name="direccion" id="direccion">
+        </p>
+        <p>
+            <label for="telefono">Telefono:</label>
+            <input type="text" name="telefono" id="telefono"> 
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">   
+        </p>
+        <p>
+            <label for="usuario">Usuario:</label>
+            <input type="text" name="usuario" id="usuario">
+        </p>
+        <p>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" id="contrasena">
+        </p>
+        <p>
+            <input type="submit" name="enviar" id="enviar">
+        </p>
+    </form>
 </html>
