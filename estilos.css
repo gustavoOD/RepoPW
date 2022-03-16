@@ -1,5 +1,5 @@
 *{
-    color: rgb(72, 129, 84);
+    color: rgb(41, 82, 37);
     font-family: sans-serif;
 }
 table{
@@ -8,4 +8,41 @@ table{
 td{
     border: 1px solid #848484;
     color: blue;
+}
+
+label{
+    /*background-color: #7a7979;*/
+    color: rgb(26, 49, 16);
+
+    /*cursor: pointer;*/
+    display: inline-block;
+    width: 120px;
+    
+}
+
+div{
+    text-align: center;
+    background-color: rgba(48, 210, 216, 0.205);
+    margin: auto;
+}
+
+.container{
+    background-color: rgba(127, 255, 212, 0.452);
+    width: fit-content;
+    border: 2px solid black;
+    padding:  10px 10px 10px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: rgb(39, 95, 51);
+}
+
+p{
+    text-align: center;
 }
