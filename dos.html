@@ -7,10 +7,7 @@
 </head>
 <body>
     <script>
-        /**
- * @param String name
- * @return String
- */
+   
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
     var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -19,6 +16,10 @@ function getParameterByName(name) {
 }
     </script>
 </body>
+
+<h1>Datos del usuario</h1>
+<h2>Verifique los datos acontinuacion</h2>
+<div class="conta">
     <table>
         <tr>
             <td>Nombre</td>
@@ -67,4 +68,5 @@ function getParameterByName(name) {
             </td>
         </tr>
     </table>
+</div>
 </html>
