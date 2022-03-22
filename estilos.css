@@ -52,3 +52,14 @@ p{
     width: fit-content;
     padding:  10px 10px 10px;
 }
+
+.button:hover{
+    background-color: aqua;
+    width: 90px;
+    height: 40px;
+    /*transform: rotate(200deg);*/
+}
+
+label:hover{
+    background-color: aqua;
+}
