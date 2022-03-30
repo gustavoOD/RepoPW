@@ -1,0 +1,58 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(13, 128, 47);
+}
+
+div{
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+    background-color: rgba(127, 255, 212, 0.452);
+    width: fit-content;
+    border: 2px solid black;
+    padding:  10px 10px 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+input{
+    border: 1px solid black;
+}
+
+label{
+    color: rgb(26, 49, 16);
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+}
+
+td{
+    border: 1px solid #848484;
+}
+
+th{
+    border: 1px solid #848484;
+    background-color: aliceblue;
+
+}
+
+table{
+    background-color: rgba(127, 255, 212, 0.452);
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    border: 2px solid black;
+    padding:  10px 10px 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.btn-danger{
+    background-color: red;
+}

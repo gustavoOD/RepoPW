@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SPA-js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <div class="formulario">
+        <h1>AGENDA</h1>
+        <form>
+            <label for="nombre">Nombres</label>
+            <input type="text" id="nombre" name="nombre">
+            <p>
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido" name="apellido">
+            <p>
+            <label for="telefono">Numero de telefono</label>
+            <input type="tel" id="telefono" name="telefono">
+            <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <p>
+            <label for="direccion">Direccion</label>
+            <input type="text" name="direccion" id="direccion">
+            <p>
+            <label for="fecha"> Fecha de nacimiento</label>
+            <input type="date" id="fecha" name="fecha">
+            <p>
+            <label for="nota">Nota</label>
+            <input type="text" id="nota" name="nota">
+            <p>
+            <input type="button" value="AGREGAR" id="guardar">
+        </form>
+    </div>
+</div>
+<p>
+<div>
+    <div class="table">
+        <table>
+            <thead></thead>
+             <th>Nombre</th>
+             <th>Apellido</th>
+             <th>Telefono</th>
+             <th>Email</th>
+             <th>Direccion</th>
+             <th>Nota</th>
+             <th>Accion</th>
+            </thead>
+            <body>
+                <tr>
+                    <td>Pedro</td>
+                    <td>Perez</td>
+                    <td>302903291</td>
+                    <td>PedroP@gmail.com</td>
+                    <td>Calle 2 Num 1</td>
+                    <td>Nota uno</td>
+                    <td><button class="btn-danger" onclick="eliminarFila(this)">Eliminar</button></td>
+                </tr>
+            </body>
+        </table>
+    </div>
+</div>
+
+</body>
+<script src="app.js"></script>
+</html>
